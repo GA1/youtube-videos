@@ -12,7 +12,7 @@ class Stack {
   }
 
   pop() {
-    if (!this.toBePopped) {
+    if (!this.size()) {
       throw new Error('Stack underflow')
     }
     const result = this.toBePopped.item
@@ -22,7 +22,7 @@ class Stack {
   }
 
   peek() {
-    if (!this.toBePopped) {
+    if (!this.size()) {
       throw new Error('Stack underflow')
     }
     return this.toBePopped.item
