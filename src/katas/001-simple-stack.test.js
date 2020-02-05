@@ -1,4 +1,4 @@
-const { SimpleStack } = require('./simple-stack')
+const { SimpleStack } = require('./001-simple-stack')
 
 describe('SimpleStack', () => {
   it('when popping an empty stack an exception should be thrown', () => {

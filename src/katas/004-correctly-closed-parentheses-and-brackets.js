@@ -8,7 +8,7 @@
 // areCorrectlyClosed('[(])') returns false
 // areCorrectlyClosed(')()(())') returns  false
 
-const { Stack } = require('./stack')
+const { Stack } = require('./002-stack')
 
 function areCorrectlyClosed(s) {
   function getOpeningCharacter(closingCharacter) {

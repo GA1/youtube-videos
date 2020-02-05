@@ -1,4 +1,4 @@
-const { Stack } = require('./stack')
+const { Stack } = require('./002-stack')
 
 describe('stack', () => {
   describe('push, pop', () => {
