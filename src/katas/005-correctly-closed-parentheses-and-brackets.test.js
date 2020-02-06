@@ -1,6 +1,6 @@
 const {
   areCorrectlyClosed,
-} = require('./004-correctly-closed-parentheses-and-brackets')
+} = require('./005-correctly-closed-parentheses-and-brackets')
 
 describe('areCorrectlyClosed', () => {
   it('returns true for an empty string', () => {
